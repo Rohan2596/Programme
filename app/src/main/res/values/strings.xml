@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Programme</string>
+    <string name="navigation_open">navigation_open</string>
+    <string name="navigation_close">navigation_close</string>
 </resources>
