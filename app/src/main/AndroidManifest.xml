@@ -10,8 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Topic"></activity>
-        <activity android:name=".MainActivity"
+        <activity android:name=".Content"></activity>
+        <activity android:name=".Topic" />
+        <activity
+            android:name=".MainActivity"
             tools:ignore="MissingClass">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
