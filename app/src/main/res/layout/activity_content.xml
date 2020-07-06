@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".Content">
 
 
@@ -25,5 +26,24 @@
 
 
     </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/contentImage"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="4dp"
+        app:srcCompat="@drawable/studying_bro"
+        tools:srcCompat="@drawable/studying_bro"></ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/contentImage">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </ScrollView>
 
 </RelativeLayout>
