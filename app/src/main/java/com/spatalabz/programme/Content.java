@@ -15,9 +15,10 @@ public class Content extends AppCompatActivity {
     Intent intent;
     String techTitle;
     ListView simpleList;
+    Data data =new Data();
     //"SHELLSCRIPT PROGRAMMING","JAVA PROGRAMMING"
-    String javaList[]={"1. Java Introduction", "China", "australia", "Portugle"};
-    String shelllists[]={"1. Shell Introduction", "australia", "Portugle", "America", "NewZealand"};
+    String javaList[]=data.javaTopic;
+    String shelllists[]=data.shellScriptTopic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,7 @@ public class Content extends AppCompatActivity {
             simpleList = (ListView)findViewById(R.id.contentList);
             ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.content_list, R.id.textView, shelllists);
             simpleList.setAdapter(arrayAdapter);
+
 
         }
         if(techTitle.equals("JAVA PROGRAMMING")){

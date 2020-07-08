@@ -2,5 +2,8 @@
     <string name="app_name">Programme</string>
     <string name="navigation_open">navigation_open</string>
     <string name="navigation_close">navigation_close</string>
-
+    <string-array name="Shell">
+        <item>Shell Script</item>
+        <item>kjbfdshf</item>
+    </string-array>
 </resources>

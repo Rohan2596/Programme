@@ -10,11 +10,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Content"
+        <activity android:name=".Main_Content"></activity>
+        <activity
+            android:name=".Content"
             android:label="Content Activity"
-            android:parentActivityName=".Topic">
-
-        </activity>
+            android:parentActivityName=".Topic"></activity>
         <activity android:name=".Topic" />
         <activity
             android:name=".MainActivity"
